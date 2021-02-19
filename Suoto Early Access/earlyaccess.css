@@ -1,0 +1,62 @@
+* {
+    overflow-x: hidden;
+    padding: 5px !important;
+    margin: 5px !important;
+    background-color: #fcdf6c;
+  }
+
+.welcome-text h1 {
+    display: block;
+    width: 100%;
+    top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Rowdies;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.scooter {
+    display: inline-block;
+   position: relative;
+   width: 20%;
+   height: auto;
+   top: 40%;
+   left: 18%;
+}
+
+#main-text {
+    display: inline-block;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1vw;
+    width: 35%;
+    height: auto;
+    left: 20%;
+    top: 25px;
+    text-align: justify;
+    vertical-align: top;
+    line-height: 1.5em;
+}
+
+.typeform-share-button {
+   display: inline-block;
+    position: relative;
+   width: 20% ;
+   height: auto;
+   right: 10%;
+   background-color: #7478d7; 
+   text-decoration: none;
+   color: white;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 1vw;
+   line-height: 2em;
+   text-align: center;
+   margin: 0;
+   padding: 0px 33px;
+   border-radius: 25px;
+   white-space: nowrap;
+   font-weight: bold;
+   vertical-align: bottom;
+}
+ 
