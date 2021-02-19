@@ -3,6 +3,7 @@
     padding: 5px !important;
     margin: 5px !important;
     background-color: #fcdf6c;
+    overflow-y: hidden;
   }
 
 .welcome-text h1 {
@@ -16,13 +17,27 @@
     text-align: center;
 }
 
+/* Animation Scooter */
+@-webkit-keyframes slide {
+    100% { left: 20vw; }
+}
+
+@keyframes slide {
+    100% { left: 20vw; }
+}
+
+/* The element to apply animation to */
 .scooter {
     display: inline-block;
    position: relative;
    width: 20%;
    height: auto;
    top: 40%;
-   left: 18%;
+   left: -18%;
+   -webkit-animation: slide 2s forwards;
+   -webkit-animation-delay: 1s;
+   animation: slide 2s forwards;
+   animation-delay: 1s;
 }
 
 #main-text {
@@ -36,15 +51,16 @@
     top: 25px;
     text-align: justify;
     vertical-align: top;
-    line-height: 1.5em;
+    line-height: 1.9em;
 }
 
 .typeform-share-button {
-   display: inline-block;
+   display: block;
     position: relative;
-   width: 20% ;
-   height: auto;
-   right: 10%;
+    left: 48vw;
+   width: 20em;
+   top: 2vh;
+   max-height: 100%;
    background-color: #7478d7; 
    text-decoration: none;
    color: white;
@@ -52,11 +68,12 @@
    font-size: 1vw;
    line-height: 2em;
    text-align: center;
-   margin: 0;
-   padding: 0px 33px;
    border-radius: 25px;
    white-space: nowrap;
    font-weight: bold;
-   vertical-align: bottom;
+   margin: 0;
+   overflow: auto;
 }
+
+
  
